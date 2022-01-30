@@ -127,20 +127,21 @@ input[type="checkbox"]:checked~.grid {
   max-height: 100%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
-i {
+.icon {
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
   width: 100px;
   position: absolute;
   font-size: 80px;
-  color: white;
+  fill: white;
   opacity: .7;
   left: 50%;
   top: 50%;
   cursor: pointer;
 }
-i:hover {
-  color: red;
+.icon:hover {
+  fill: rgb(236, 240, 10);
+  filter: drop-shadow(3px 5px 4px rgba(7, 235, 37, 0.938));
   
 }
